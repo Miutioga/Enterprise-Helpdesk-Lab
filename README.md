@@ -44,6 +44,9 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 ### 3. Helpdesk Interface
 *osTicket login page running on Ubuntu Web Server, accessible via domain.*
 ![osTicket Web User](docs/osticket_web_user.png)
+
+<br>
+
 ![osTicket Web Admin](docs/osticket_web_admin.png)
 
 ### 4. Group Policy (GPO)
@@ -58,3 +61,4 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 
 ---
 *Created by Tran Trong Tin*
+

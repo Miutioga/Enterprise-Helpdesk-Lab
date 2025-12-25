@@ -9,7 +9,7 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 ## 🛠️ Technologies Used
 - **Infrastructure:** VirtualBox, pfSense (Firewall/Router).
 - **Identity Management:** Windows Server 2019 (AD DS, DNS, GPO).
-- **Web Server:** Ubuntu Server 20.04, Apache, MySQL, PHP (LAMP Stack).
+- **Web Server:** Ubuntu Server 20.04, Apache, MariaDB, PHP (LAMP Stack).
 - **Application:** osTicket (Helpdesk System).
 - **Automation:** Python (Service Monitoring), Bash Shell (Database Backup).
 
@@ -63,4 +63,5 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 4.  **Automation:** Deployed scripts to `/home/sysadmin/` and configured Crontab for daily backups and health checks.
 
 ---
+
 

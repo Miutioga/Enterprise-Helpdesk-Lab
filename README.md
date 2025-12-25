@@ -5,7 +5,6 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 
 ## 🏗️ Network Topology
 ![Network Diagram](docs/network_diagram.png)
-*(Please upload your diagram to the docs folder)*
 
 ## 🛠️ Technologies Used
 - **Infrastructure:** VirtualBox, pfSense (Firewall/Router).
@@ -30,3 +29,32 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 ├── scripts/            # Automation scripts (Python/Bash)
 
 └── README.md           # Project Documentation
+```
+
+## 📸 Screenshots
+
+### 1. pfSense Dashboard
+*Firewall configured with WAN/LAN interfaces and Gateway enabled.*
+![pfSense Dashboard](docs/pfsense_dashboard.png)
+
+### 2. Active Directory & DNS
+*User management setup on Windows Server (Domain Controller).*
+![Active Directory](docs/active_directory.png)
+
+### 3. Helpdesk Interface
+*osTicket login page running on Ubuntu Web Server, accessible via domain.*
+![osTicket Web User](docs/osticket_web_user.png)
+![osTicket Web Admin](docs/osticket_web_admin.png)
+
+### 4. Group Policy (GPO)
+*Security settings to restrict Control Panel access.*
+![GPO Settings](docs/gpo_settings.png)
+
+## ⚙️ Setup & Installation Summary
+1.  **Network Setup:** Configured pfSense with WAN (NAT) and LAN (`192.168.10.1/24`).
+2.  **Domain Controller:** Promoted Windows Server to DC (`miujing.local`), configured DNS A Records for the web server.
+3.  **Web Server:** Installed LAMP stack on Ubuntu, deployed osTicket, and joined the network.
+4.  **Automation:** Deployed scripts to `/home/sysadmin/` and configured Crontab for daily backups and health checks.
+
+---
+*Created by Tran Trong Tin*

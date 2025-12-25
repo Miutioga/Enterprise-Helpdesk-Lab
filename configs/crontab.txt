@@ -1,0 +1,1 @@
+0 0 * * * /home/your_username/backup_osticket.sh

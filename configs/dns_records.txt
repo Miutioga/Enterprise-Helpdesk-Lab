@@ -1,0 +1,21 @@
+Network DNS Configuration Documentation
+=======================================
+
+Domain Name: miujing.local
+Primary DNS Server: 192.168.10.10 (Windows Server 2019 - Domain Controller)
+Upstream DNS (Forwarder): 8.8.8.8 (Google DNS via pfSense)
+
+Key Static A Records (Forward Lookup Zone):
+-------------------------------------------
+1. dc01.miujing.local       -> 192.168.10.10  (Domain Controller / DNS Host)
+2. helpdesk.miujing.local   -> 192.168.10.20  (Ubuntu Web Server - osTicket App)
+3. gateway.miujing.local    -> 192.168.10.1   (pfSense Firewall Interface - Optional management link)
+
+Testing Verification (from Client PC):
+--------------------------------------
+Command: nslookup helpdesk.miujing.local
+Result:
+> Server:  dc01.miujing.local
+> Address:  192.168.10.10
+> Name:    helpdesk.miujing.local
+> Address:  192.168.10.20

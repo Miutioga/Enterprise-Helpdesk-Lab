@@ -4,7 +4,7 @@
 This project simulates a real-world corporate IT environment, integrating **Windows Server (Active Directory)** and **Linux (LAMP Stack)** to host a functional Helpdesk ticketing system. The infrastructure is secured by an edge firewall (pfSense) and features automated maintenance scripts.
 
 ## 🏗️ Network Topology
-![Network Diagram](docs/diagram.png)
+![Network Diagram](docs/network_diagram.png)
 *(Please upload your diagram to the docs folder)*
 
 ## 🛠️ Technologies Used
@@ -28,4 +28,5 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 ├── configs/            # Configuration snippets (DNS, Crontab)
 ├── docs/               # Screenshots and Network Diagrams
 ├── scripts/            # Automation scripts (Python/Bash)
+
 └── README.md           # Project Documentation

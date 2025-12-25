@@ -48,8 +48,6 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 *Interface for employees to submit incident reports and track ticket status.*
 ![User Interface](docs/osticket_web_user.png)
 
-<br>
-
 #### B. Agent Panel (Ticket Management)
 *Dashboard for IT staff to triage, prioritize, and resolve incoming support requests.*
 ![Admin Interface](docs/osticket_web_admin.png)
@@ -66,5 +64,6 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 
 ---
 *Created by Tran Trong Tin*
+
 
 

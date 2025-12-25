@@ -42,12 +42,17 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 ![Active Directory](docs/active_directory.png)
 
 ### 3. Helpdesk Interface
-*osTicket login page running on Ubuntu Web Server, accessible via domain.*
-![osTicket Web User](docs/osticket_web_user.png)
+*The system provides distinct interfaces for End-Users and Administrators, ensuring a streamlined support workflow.*
+
+#### A. End-User Portal (Ticket Submission)
+*Interface for employees to submit incident reports and track ticket status.*
+![User Interface](docs/osticket_web_user.png)
 
 <br>
 
-![osTicket Web Admin](docs/osticket_web_admin.png)
+#### B. Agent Panel (Ticket Management)
+*Dashboard for IT staff to triage, prioritize, and resolve incoming support requests.*
+![Admin Interface](docs/osticket_web_admin.png)
 
 ### 4. Group Policy (GPO)
 *Security settings to restrict Control Panel access.*
@@ -61,4 +66,5 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 
 ---
 *Created by Tran Trong Tin*
+
 

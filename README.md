@@ -63,7 +63,4 @@ This project simulates a real-world corporate IT environment, integrating **Wind
 4.  **Automation:** Deployed scripts to `/home/sysadmin/` and configured Crontab for daily backups and health checks.
 
 ---
-*Created by Tran Trong Tin*
-
-
 
